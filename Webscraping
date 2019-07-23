@@ -1,7 +1,5 @@
 import requests
-import bs4
-
-#from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 URL = 'https://www.amazon.in/Test-Exclusive-608/dp/B07HGBMJT6/ref=sr_1_1?crid=ZBM880PPYAMV&keywords=oneplus+7+mobile+phones&qid=1562316033&s=gateway&smid=A35FCS7U51TK3C&sprefix=one%2Caps%2C297&sr=8-1'
 headers={"User-agents":'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'}
 page=requests.get(URL,headers=headers)
